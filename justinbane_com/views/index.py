@@ -4,6 +4,6 @@ from django.http import HttpResponse
 def index(request):
     context = {
         "name": "Justin Bane",
-        "greeting": "Hello there!!"
+        "greeting": "more soon..."
     }
     return render(request, "index.html", context)
